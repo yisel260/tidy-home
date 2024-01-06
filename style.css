@@ -1,0 +1,44 @@
+h1 {
+    color:rgb(79, 47, 109);
+    text-align: center;
+}
+
+#header{
+    background-color: darkcyan;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(172, 231, 233);
+    text-align: center;
+}
+
+.forms-container {
+    background-color:rgb(9, 224, 196);
+    text-align: center;
+}
+
+#optionButtons {
+    background-color:rgb(49, 141, 141);
+    border: 5px outset rgb(0, 153, 255)(0, 102, 255);
+    background-color: lightblue;    
+    text-align: center;
+}
+
+#results {
+    background-color: rgb(172, 231, 233);
+    text-align: center;
+
+}
+
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: aliceblue;
+  }
+
+  #banners {
+    background-color: darkcyan;
+  }
