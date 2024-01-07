@@ -6,12 +6,23 @@ import reportWebVitals from './reportWebVitals';
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.js";
+import ItemSearch from "./pages/ItemSearch.js"; 
+import StoreItems from "./pages/StoreItems.js";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />
+  }, 
+  , 
+  {
+    path: "/itemsearch",
+    element: <ItemSearch />
+  },
+  {
+    path: "/storeitems",
+    element: <StoreItems />
   }
 ]);
 

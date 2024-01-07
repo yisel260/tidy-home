@@ -9,7 +9,7 @@ function ItemSearch() {
                 <NavBar/> 
               </header>
               <main>
-                <h1>Store Items here !</h1>
+                <h1>search for items</h1>
               </main>
             </>
           );
