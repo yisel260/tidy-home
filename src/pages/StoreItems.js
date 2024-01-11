@@ -1,6 +1,7 @@
 
 import React from 'react'
 import NavBar from '../Components/NavBar';
+import StoreItemForm from '../Components/StoreItemForm';
 
 function ItemSearch() {
         return (
@@ -10,6 +11,7 @@ function ItemSearch() {
               </header>
               <main>
                 <h1>Store Items here !</h1>
+                <StoreItemForm/>
               </main>
             </>
           );
