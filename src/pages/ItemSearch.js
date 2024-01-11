@@ -30,8 +30,6 @@ function ItemSearch() {
     })
  }
 
-
-
         return (
             <>
               <header>
