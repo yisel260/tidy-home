@@ -1,12 +1,12 @@
 import react from 'react';
 
-function ItemCard( {itemName, itemLocation,room}){
+function ItemCard( {itemName, itemLocation, itemRoom}){
 
     return (
         <div className="ItemCard">
            {itemName}
             {itemLocation}
-            {room }           
+            {itemRoom }           
         </div>
         )
 
