@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.js";
 import ItemSearch from "./pages/ItemSearch.js"; 
 import StoreItems from "./pages/StoreItems.js";
+import Learn from "./pages/Learn"
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/storeitems",
     element: <StoreItems />
+  },
+  {
+    path: "/learn",
+    element: <Learn />
   }
 ]);
 
