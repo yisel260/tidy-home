@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 
 
-function SearchByNameForm({handleNameSearch}) {
+function SearchByNameForm({handleNameSearch, handleCategorySearch, handleRoomSearch}) {
 
   const [itemSearched,setItemSearched]=useState("")
   const [categorySearched,setCategorySearched]=useState("")
@@ -21,7 +21,7 @@ function SearchByNameForm({handleNameSearch}) {
 
 
       <h3>Search by category</h3>
-      <form onSubmit={(e)=>{handleNameSearch(e)}}>
+      <form onSubmit={(e)=>{handleCategorySearch(e)}}>
         <label>
           Item category:
           <input name="ItemCategory" id="itemCategory" value={categorySearched}   onChange={e=>setCategorySearched(e.target.value)}/>
@@ -30,10 +30,10 @@ function SearchByNameForm({handleNameSearch}) {
       </form>
 
       <h3>Search by Room</h3>
-      <form onSubmit={(e)=>{handleNameSearch(e)}}>
+      <form onSubmit={(e)=>{handleRoomSearch(e)}}>
         <label>
           Room:
-          <input name="ItemCategory" id="itemCategory" value={roomSearched}   onChange={e=>setRoomSearched(e.target.value)}/>
+          <input name="ItemRoom" id="itemRoom" value={roomSearched}   onChange={e=>setRoomSearched(e.target.value)}/>
         </label>
         <button type="submit">search</button>
       </form>
