@@ -36,8 +36,11 @@ function ItemSearch() {
                 <NavBar/> 
               </header>
               <main>
+                <div>
                 <h1>search for items</h1>
                 <SearchByNameForm handleNameSearch={handleNameSearch} />
+                </div>
+               
                 <div>
                   {searchResults.map(item=>{
                     return(
