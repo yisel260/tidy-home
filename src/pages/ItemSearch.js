@@ -2,7 +2,7 @@
 import React,{useState} from 'react'
 import NavBar from '../Components/NavBar';
 import ItemCard from '../Components/ItemCard';
-import SearchByNameForm from '../Components/SearchByNameForm';
+import SearchForms from '../Components/SearchForms';
 
 function ItemSearch() {
 
@@ -59,6 +59,7 @@ function ItemSearch() {
 
     function handleRoomSearch(event) {
       event.preventDefault();
+
      const  searchedRoom = event.target.elements.ItemRoom.value
   
       fetch('http://localhost:3000/items')
@@ -85,7 +86,7 @@ function ItemSearch() {
               <main>
                 
                 <h1>search for items</h1>
-                <SearchByNameForm 
+                <SearchForms
                 handleNameSearch={handleNameSearch}  
                 handleCategorySearch={handleCategorySearch}
                 handleRoomSearch={handleRoomSearch}
