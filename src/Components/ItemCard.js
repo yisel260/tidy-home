@@ -1,13 +1,16 @@
 import react from 'react';
 
-function ItemCard( {itemName, itemLocation, itemRoom}){
+function ItemCard( {itemName, itemLocation, itemRoom, itemCategory}){
 
     return (
         <div className="ItemCard">
-           {itemName}
-            {itemLocation}
-            {itemRoom }           
+           Item Name: {itemName}<br />
+           Item Room: {itemRoom } <br />
+           Item Location: {itemLocation}<br />
+           Item Category: {itemCategory}  <br />    
+        
         </div>
+
         )
 
 }

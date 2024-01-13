@@ -98,7 +98,8 @@ function ItemSearch() {
                     <ItemCard 
                       itemName={item.name} 
                       itemLocation={item.location} 
-                      itemRoom={item.room} item
+                      itemRoom={item.room} 
+                      itemCategory={item.category} 
                       key={item.id}/>
                   )})}
                 </div>
