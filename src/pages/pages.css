@@ -10,6 +10,12 @@ h2{
 
 }
 
+h3{
+    text-align: center;
+    font-family: Georgia, serif;
+
+}
+
 .paragraph {
     background-color:rgb(255, 255, 255);
     font-family: Georgia, serif;
@@ -33,4 +39,24 @@ h2{
     display: inline-block;
 }
 
+
+.form{
+    font-family: Georgia, serif;
+    background-color:rgb(186, 170, 202);
+    padding-top: 15px;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin: 15px;
+
+    text-align: center;
+    
+    
+    box-sizing: border-box;
+    
+    justify-content: center;
+    align-items: center;
+    
+
+}
 

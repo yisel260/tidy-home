@@ -118,20 +118,6 @@
       "location": "in a clear plastic bin in the closet",
       "category": "sentimental items",
       "id": 17
-    },
-    {
-      "id": "1314",
-      "name": "a",
-      "location": "a",
-      "category": "a",
-      "room": "a"
-    },
-    {
-      "id": "ff00",
-      "name": "b",
-      "location": "d",
-      "category": "e",
-      "room": "c"
     }
   ]
 }

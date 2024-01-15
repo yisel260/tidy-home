@@ -10,15 +10,7 @@ function ItemSearch() {
   const [newItemRoom, setNewItemRoom] = useState("")
   const [newItemLocation, setNewItemLocation] = useState("")
 
-  // function resetForm(){
-  //   console.log("Resetting form...")
-  //   setNewItemCategory("")
-  //   setNewItemName("")
-  //   setNewItemRoom("")
-  //   setNewItemLocation("")
-    
-  // }
-
+  
   function handleStoreItem(e){
 
     e.preventDefault();
@@ -46,11 +38,7 @@ function ItemSearch() {
       setNewItemRoom("");
       setNewItemLocation("");
 
-      // setNewItemCategory(newItemData.category);
-      // setNewItemName(newItemData.name);
-      // setNewItemRoom(newItemData.room);
-      // setNewItemLocation(newItemData.location);
-      // resetForm(); // Move this line inside the .then() block
+    
     });
 }
 
