@@ -18,4 +18,19 @@ h2{
     padding-right: 100px;
 }
 
+.itemCard{
+    text-align: center;
+    background-color:rgb(186, 170, 202);
+    font-family: Georgia, serif;
+    padding-top: 15px;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom: 15 px;
+    margin: 15px;
+    /* width: 300px; */
+
+
+    display: inline-block;
+}
+
 
