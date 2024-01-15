@@ -92,11 +92,12 @@ function ItemSearch() {
         return (
             <>
               <header>
+                <h1 text-align= "center"> Tidy Home</h1>
                 <NavBar/> 
               </header>
               <main>
                 
-                <h1>search for items</h1>
+                <h1>Search for Items</h1>
                 <SearchForms 
                 handleNameSearch={handleNameSearch}  
                 handleCategorySearch={handleCategorySearch}

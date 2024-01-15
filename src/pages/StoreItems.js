@@ -7,6 +7,7 @@ function ItemSearch() {
         return (
             <>
               <header>
+              <h1 text-align= "center"> Tidy Home</h1>
                 <NavBar/> 
               </header>
               <main>
