@@ -13,10 +13,10 @@ function ItemSearch() {
   const [addedItem,setItemAdded]=useState([])
 
   const newItemData = {
-    name: newItemName.toLowerCase(),
-    location: newItemLocation.toLowerCase(),
-    category: newItemCategory.toLowerCase(),
-    room: newItemRoom.toLowerCase()
+    name: newItemName.toLowerCase().trim(),
+    location: newItemLocation.toLowerCase().trim(),
+    category: newItemCategory.toLowerCase().trim(),
+    room: newItemRoom.toLowerCase().trim()
   };
 
   
