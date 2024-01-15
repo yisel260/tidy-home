@@ -7,8 +7,10 @@
     background: rgba(162, 196, 226);
     text-decoration: none;
     text-align: center;
+    font-family: Georgia, serif;
     font-size: min(10vw, 15px) ;
     color: rgb(21, 58, 128);
+
 }
   
 .active {

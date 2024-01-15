@@ -11,6 +11,11 @@ h2{
 }
 
 .paragraph {
-    background-color:rgb(162, 196, 226);
+    background-color:rgb(255, 255, 255);
     font-family: Georgia, serif;
+    padding-top: 10px;
+    padding-left:100px;
+    padding-right: 100px;
 }
+
+
