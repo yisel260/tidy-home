@@ -17,7 +17,7 @@ function ItemSearch() {
 
   function handleNameSearch(event) {
     event.preventDefault();
-   const  searchedItem = event.target.elements.ItemName.value
+   const  searchedItem = event.target.elements.ItemName.value.trim().toLowerCase();
 
     fetch('http://localhost:3000/items')
     .then(res => res.json())
@@ -41,7 +41,7 @@ function ItemSearch() {
 
     function handleCategorySearch(event) {
       event.preventDefault();
-     const  searchedCategory = event.target.elements.ItemCategory.value
+     const  searchedCategory = event.target.elements.ItemCategory.value.trim().toLowerCase()
   
       fetch('http://localhost:3000/items')
       .then(res => res.json())
@@ -67,7 +67,7 @@ function ItemSearch() {
     function handleRoomSearch(event) {
       event.preventDefault();
 
-     const  searchedRoom = event.target.elements.ItemRoom.value
+     const  searchedRoom = event.target.elements.ItemRoom.value.trim().toLowerCase()
   
       fetch('http://localhost:3000/items')
       .then(res => res.json())

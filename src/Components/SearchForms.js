@@ -27,10 +27,10 @@ function SearchForms({
       </form>
 
 
-      <h3>Search by category</h3>
+      <h3>Search by Category</h3>
       <form className="form" onSubmit={(e)=>{handleCategorySearch(e)}}>
         <label>
-          Item category:
+          Item Category:
           <input name="ItemCategory" id="itemCategory" value={categorySearched}   onChange={e=>setCategorySearched(e.target.value)}/>
         </label>
         <button type="submit">search</button>
