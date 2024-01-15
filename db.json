@@ -120,10 +120,18 @@
       "id": 17
     },
     {
-      "id": "eec0",
-      "name": "wedding pictures ",
-      "category": "blue and gold treasure box next to bookshelve",
-      "room": "sentimental items"
+      "id": "1314",
+      "name": "a",
+      "location": "a",
+      "category": "a",
+      "room": "a"
+    },
+    {
+      "id": "ff00",
+      "name": "b",
+      "location": "d",
+      "category": "e",
+      "room": "c"
     }
   ]
 }
