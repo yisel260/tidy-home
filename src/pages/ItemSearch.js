@@ -8,6 +8,11 @@ function ItemSearch() {
 
   const [searchResults, setSearchResults]=useState([])
 
+  const [itemSearched,setItemSearched]=useState("")
+  const [categorySearched,setCategorySearched]=useState("")
+  const [roomSearched,setRoomSearched]=useState("")
+  
+
   //Search By Name 
 
   function handleNameSearch(event) {
@@ -27,6 +32,7 @@ function ItemSearch() {
       console.log(searchByNameResults)
 
       setSearchResults(searchByNameResults)
+      setItemSearched("")
     })
   }
 
@@ -50,6 +56,7 @@ function ItemSearch() {
         console.log(searchByCategoryResults)
   
         setSearchResults(searchByCategoryResults)
+        setCategorySearched("")
       })
     }
 
@@ -75,7 +82,11 @@ function ItemSearch() {
         console.log(searchByRoomResults)
   
         setSearchResults(searchByRoomResults)
+        setRoomSearched("")
+
+        
       })
+
     }
 
         return (
@@ -86,10 +97,18 @@ function ItemSearch() {
               <main>
                 
                 <h1>search for items</h1>
-                <SearchForms
+                <SearchForms 
                 handleNameSearch={handleNameSearch}  
                 handleCategorySearch={handleCategorySearch}
                 handleRoomSearch={handleRoomSearch}
+
+                itemSearched={itemSearched} 
+                setItemSearched={setItemSearched}
+                categorySearched={categorySearched}
+                setCategorySearched={setCategorySearched}
+                roomSearched={roomSearched}
+                setRoomSearched={setRoomSearched}
+                
                 />
                 
                 <div>

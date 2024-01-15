@@ -2,12 +2,19 @@ import React, {useState} from "react";
 
 
 
-function SearchForms({handleNameSearch, handleCategorySearch, handleRoomSearch}) {
+function SearchForms({
+  handleNameSearch, 
+  handleCategorySearch, 
+  handleRoomSearch, 
 
-  const [itemSearched,setItemSearched]=useState("")
-  const [categorySearched,setCategorySearched]=useState("")
-  const [roomSearched,setRoomSearched]=useState("")
-  
+  itemSearched,
+  setItemSearched,
+  categorySearched,
+  setCategorySearched,
+  roomSearched,
+  setRoomSearched}) {
+
+
   return (
     <div>
       <h3>Search by Name</h3>
