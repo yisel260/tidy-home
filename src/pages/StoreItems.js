@@ -2,6 +2,7 @@
 import React, {useState} from 'react'
 import NavBar from '../Components/NavBar';
 import StoreItemForm from '../Components/StoreItemForm';
+import ItemCard from '../Components/ItemCard';
 
 function ItemSearch() {
 
@@ -9,19 +10,19 @@ function ItemSearch() {
   const [newItemCategory, setNewItemCategory] = useState("")
   const [newItemRoom, setNewItemRoom] = useState("")
   const [newItemLocation, setNewItemLocation] = useState("")
+  const [addedItem,setItemAdded]=useState([])
+
+  const newItemData = {
+    name: newItemName,
+    location: newItemLocation,
+    category: newItemCategory,
+    room: newItemRoom,
+  };
 
   
   function handleStoreItem(e){
 
     e.preventDefault();
-
-
-    const newItemData = {
-      name: newItemName,
-      location: newItemLocation,
-      category: newItemCategory,
-      room: newItemRoom,
-    };
 
     fetch("http://localhost:3000/items", {
       method: "POST",
@@ -31,8 +32,10 @@ function ItemSearch() {
       body: JSON.stringify(newItemData),
     })
     .then((r) => r.json())
-    .then(() => {
-
+    .then((newItemData) => {
+      console.log(addedItem)
+      setItemAdded([...addedItem, newItemData])
+      console.log(addedItem)
       setNewItemCategory("");
       setNewItemName("");
       setNewItemRoom("");
@@ -66,6 +69,23 @@ function ItemSearch() {
                 setNewItemLocation={setNewItemLocation}
                 newItemLocation={newItemLocation}
                 />
+                
+                <div>
+                  <h2>Items Added:</h2>
+                  {addedItem.map(item=>{
+                    
+                    return(
+                    
+                    <ItemCard 
+                      itemName={item.name} 
+                      itemLocation={item.location} 
+                      itemRoom={item.room} 
+                      itemCategory={item.category} 
+                      key={item.id}/>
+                  )})}
+                  </div>
+
+                
               </main>
             </>
           );
