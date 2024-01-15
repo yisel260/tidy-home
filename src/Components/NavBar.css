@@ -1,7 +1,7 @@
 .nav-link{
     display: inline-block;
     box-sizing: border-box;
-    width: 100px;
+    width: 150px;
     padding: 5px;
     margin:  6px 6px;
     background: rgba(162, 196, 226);
@@ -17,3 +17,4 @@
     color: rgb(157, 97, 199);
     text-decoration: underline;
 }
+

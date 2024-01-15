@@ -27,6 +27,21 @@ function Home() {
 
                    Never lose an item again! Simply store on the data base for retrival when you need it!
                   </p>
+                  <h3>Comming soon: </h3>
+                  <ul>
+                    <li> Login feature to keep each user's information separate and up to date</li>
+                    <li>  Hability to Update and items location after it is searched</li>
+                    <li> Hability to upload pictures of items as you "store them"</li>
+                    <li> Chore calendar with hability to schedule chores and organizing tasks</li>
+                    <li>  Family/House hold featrures</li>
+                         <ul>
+                         <li> Set up family account to link  accounts of family members </li>
+                         <li>Send messages to family asking them to update the location of an item if they moved it.</li>
+                         <li>Assign  Chores from chore list to  each family member</li>
+                         </ul>
+
+                   </ul>
+
                   </div>
 
                   
