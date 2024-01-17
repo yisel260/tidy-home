@@ -127,18 +127,11 @@
       "room": "garage "
     },
     {
-      "id": "4e26",
+      "id": "182e",
       "name": "cat toys",
       "location": "tv stand first drawer",
-      "category": "pet items ",
+      "category": "pet items",
       "room": "living room"
-    },
-    {
-      "id": "6166",
-      "name": "fabric",
-      "location": "gray dresser second drawer",
-      "category": "hobbies",
-      "room": "hobby room"
     }
   ]
 }

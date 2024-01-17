@@ -10,6 +10,7 @@ function ItemSearch() {
   const [newItemCategory, setNewItemCategory] = useState("")
   const [newItemRoom, setNewItemRoom] = useState("")
   const [newItemLocation, setNewItemLocation] = useState("")
+
   const [addedItem,setItemAdded]=useState([])
 
   const newItemData = {
@@ -33,7 +34,6 @@ function ItemSearch() {
     })
     .then((r) => r.json())
     .then((newItemData) => {
-      console.log(addedItem)
       setItemAdded([...addedItem, newItemData])
       console.log(addedItem)
       setNewItemCategory("");

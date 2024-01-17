@@ -8,25 +8,32 @@ import Home from "./pages/Home.js";
 import ItemSearch from "./pages/ItemSearch.js"; 
 import StoreItems from "./pages/StoreItems.js";
 import Learn from "./pages/Learn"
+import ErrorPage from "./pages/ErrorPage.js";
+
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
+    element: <Home />,
+    errorElement: <ErrorPage />
   }, 
 
   {
     path: "/itemsearch",
-    element: <ItemSearch />
+    element: <ItemSearch />,
+    errorElement: <ErrorPage />
+
   },
   {
     path: "/storeitems",
-    element: <StoreItems />
+    element: <StoreItems />,
+    errorElement: <ErrorPage />
   },
   {
     path: "/learn",
-    element: <Learn />
+    element: <Learn />,
+    errorElement: <ErrorPage />
   }
 ]);
 
