@@ -21,7 +21,7 @@ function StoreItemForm({
 
 
 return (
-
+    <div>
     <form className="form" id="store-item"   onSubmit={handleStoreItem}> 
       <label> Item name:</label>
       <input type="text" id="item-name" value={newItemName} name = "item-name" required onChange={e=>setNewItemName(e.target.value)}/> <br/><br/>
@@ -38,6 +38,12 @@ return (
 
       <input type="submit" value="submit" className = "button" id="submitItem"/>
      </form>
+      
+      <div>
+        
+      </div>
+
+     </div>
      );
 }
 

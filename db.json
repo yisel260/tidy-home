@@ -132,6 +132,20 @@
       "location": "tv stand first drawer",
       "category": "pet items",
       "room": "living room"
+    },
+    {
+      "id": "c83a",
+      "name": "kjs",
+      "location": "e",
+      "category": "e",
+      "room": "uu"
+    },
+    {
+      "id": "5b51",
+      "name": "snow shovel",
+      "location": "nest to chrismas boxes",
+      "category": "seasonal items",
+      "room": "garage"
     }
   ]
 }

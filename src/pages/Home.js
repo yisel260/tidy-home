@@ -2,7 +2,7 @@
 import React from 'react'
 import NavBar from '../Components/NavBar';
 import "./pages.css";
-
+import TestForm from '../Components/TestForm';
 
 function Home() {
         return (
@@ -14,6 +14,8 @@ function Home() {
               </header>
               <main>
                 <h2>Home!</h2>
+
+                
                 <div className='paragraph'>
                   <p>Have you ever put somethig safely away, only to forget where you put it when you need it?
                    Are you tired of your family members asking you where things are all the time?
