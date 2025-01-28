@@ -2,7 +2,6 @@
 import React from 'react'
 import NavBar from '../Components/NavBar';
 import "./pages.css";
-import TestForm from '../Components/TestForm';
 
 function Home() {
         return (
